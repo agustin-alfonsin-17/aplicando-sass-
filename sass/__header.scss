@@ -1,0 +1,41 @@
+.header{
+    background: {
+        size: cover;
+        position: top left;
+        repeat: no-repeat;
+        color: var(--color-fondo);
+    }
+    &__logo{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+        &:hover{
+            color: rgb(255, 5, 5);
+        }
+        border: $border-container;
+    }
+    &__menu{
+        display: flex;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px 60px;
+        justify-content: end;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        display: flex;
+        height: 50px;
+        
+    }
+    li:hover{
+        background-color: $color-secundario;
+        
+    }
+    a{
+        color: tomato;
+    }
+}
